@@ -1,0 +1,22 @@
+:root {
+  --cor-branco: #ffffff;
+  --cor-cinza: #999999;
+  --cor-vermelho: #B34353;
+  --cor-preto: #272727;
+  --cor-gelo: #00000029;
+  --cor-grafite: #ACACAC;
+
+   --font-base: "Poppins", sans-serif;
+
+  --peso-light: 300;
+  --peso-regular: 400;
+  --peso-medium: 500;
+  --peso-bold: 700;
+}
+
+/* estilo base */
+body {
+  margin: 0;
+  background-color: var(--cor-branco);
+  font-family: "Poppins", sans-serif;
+}

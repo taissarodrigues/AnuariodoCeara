@@ -1,0 +1,40 @@
+/* ========================
+   TIPOGRAFIA
+======================== */
+
+.title-large {
+  font-size: 72px;
+  font-weight: var(--peso-bold);
+}
+
+.title-medium {
+  font-size: 30px;
+  font-weight: var(--peso-bold);
+}
+
+.text-base {
+  font-size: 24px;
+  font-weight: var(--peso-regular);
+  line-height: 1.6;
+}
+
+.text-small {
+  font-size: 14px;
+  font-weight: var(--peso-medium);
+}
+
+.font-light {
+  font-weight: var(--peso-light);
+}
+
+.font-regular {
+  font-weight: var(--peso-regular);
+}
+
+.font-medium {
+  font-weight: var(--peso-medium);
+}
+
+.font-bold {
+  font-weight: var(--peso-bold);
+}
