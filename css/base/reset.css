@@ -1,0 +1,13 @@
+:root {
+  --cor-branco: #ffffff;
+  --cor-preto: #333333;
+  --cor-laranja: #fa8550;
+  --cor-marrom: #333;
+}
+
+/* estilo base */
+body {
+  margin: 0;
+  background-color: var(--cor-branco);
+  font-family: "Roboto Condensed", sans-serif;
+}
