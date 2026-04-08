@@ -10,31 +10,47 @@
   <!-- CSS -->
 <link rel="stylesheet" href="./src/css/main.css"></head>
 
-<body>
-<header>
+  <!-- HEADER -->
+  <header>
+    <div class="topbar">
+      <img src="/assets/icons/menu.png" class="menu-button" alt="Menu">
+      <img src="/assets/img/logo-anuario.svg" class="logo" alt="Logo Anuário">
+      <img src="/assets/icons/lupa.svg" class="search-button" alt="Buscar">
+    </div>
 
-  <!-- TOPBAR -->
-  <div class="topbar">
-    <img src="/assets/icons/menu.png" class="menu-button">
+    <nav class="navbar">
+      <h2 class="font-bold">Fortaleza</h2>
 
-    <img src="/assets/img/logo-anuario.svg" class="logo">
+      <ul class="nav-list">
+        <li><a href="#">Fortaleza em Síntese</a></li>
+        <li><a href="#">Contribuintes ISS (2021)</a></li>
+        <li><a href="#">Prefeitura</a></li>
+        <li><a href="#" class="active">Mapas</a></li>
+        <li><a href="#">Organograma</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
 
-    <img src="/assets/icons/lupa.svg" alt="" class="search-button">
-  </div>
+    <!-- BREADCRUMB -->
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Fortaleza</a></li>
+        <li aria-current="page">Mapas</li>
+      </ol>
+    </nav>
 
-  <!-- NAVBAR -->
-  <div class="navbar">
-    <h2 class="font-bold">
-      Fortaleza</h2>
-    <ul class="nav-list">
-      <li><a href="#">Fortaleza em Síntese</a></li>
-      <li><a href="#">Contribuintes ISS (2021)</a></li>
-      <li><a href="#">Prefeitura</a></li>
-      <li><a href="#" class="active">Mapas</a></li>
-      <li><a href="#">Organograma</a></li>
-    </ul>
-  </div>
+    <!-- TÍTULO -->
+    <section class="page-header">
+      <h1 class="font-bold">Mapas</h1>
+    </section>
 
-</header>
+    <!-- CONTEÚDO -->
+    <section class="maps-content">
+    </section>
+
+  </main>
+
 </body>
 </html>
