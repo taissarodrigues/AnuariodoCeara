@@ -16,21 +16,21 @@
   height: 50px ;
 }
 
-/* ---------- NAVBAR ---------- */
-.navbar {
+/* ---------- custom-navbar ---------- */
+.custom-navbar {
   background: var(--cor-vermelho);
   text-align: center;
   padding: 16px 0;
 }
 
 /* título */
-.navbar h2 {
+.custom-navbar h2 {
   color: white;
   margin: 0 0 8px 0;
 }
 
 /* menu */
-.navbar .nav-list {
+.custom-navbar .nav-list {
   display: flex;
   justify-content: center;
   gap: 32px;
@@ -40,14 +40,14 @@
   padding: 0;
 }
 
-.navbar .nav-list li a {
+.custom-navbar .nav-list li a {
   color: white;
   text-decoration: none;
   font-weight: 500;
   position: relative;
 }
 
-.navbar .nav-list li a.active::after  {
+.custom-navbar .nav-list li a.active::after  {
   content: "";
   position: absolute;
   left: 0;
@@ -58,7 +58,7 @@
 }
 
 /* hover */
-.navbar .nav-list li a:hover {
+.custom-navbar .nav-list li a:hover {
   opacity: 0.8;
 }
 
@@ -114,6 +114,7 @@
     top: 50%;
     transform: translateY(-50%) rotate(-45deg);
   }
+  
   
 
   
