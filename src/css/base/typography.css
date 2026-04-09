@@ -3,7 +3,7 @@
 ======================== */
 
 .title-large {
-  font-size: 72px;
+  font-size: 33px;
   font-weight: var(--peso-bold);
 }
 
@@ -11,11 +11,19 @@
   font-size: 30px;
   font-weight: var(--peso-bold);
 }
+.title-medium-semibold {
+  font-size: 30px;
+  font-weight: var(--peso-semibold);
+}
 
 .text-base {
   font-size: 24px;
   font-weight: var(--peso-regular);
   line-height: 1.6;
+}
+.title-base-semibold {
+  font-size: 22px;
+  font-weight: var(--peso-medium);
 }
 
 .text-small {
@@ -37,4 +45,7 @@
 
 .font-bold {
   font-weight: var(--peso-bold);
+}
+.font-semibold {
+  font-weight: var(--peso-semiboold);
 }

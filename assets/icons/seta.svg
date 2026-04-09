@@ -1,6 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="9.414" height="8.828" viewBox="0 0 9.414 8.828">
-                      <g id="Grupo_8237" data-name="Grupo 8237" transform="translate(-169.606 -114.719)">
-                        <path id="Caminho_1631" data-name="Caminho 1631" d="M10883.021,96.04l2.867,3-2.867,3" transform="translate(-10712 20.093)" fill="none" stroke="#885B00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                        <path id="Caminho_1632" data-name="Caminho 1632" d="M10883.021,96.04l2.867,3-2.867,3" transform="translate(-10707.867 20.093)" fill="none" stroke="#885B00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                      </g>
-                    </svg>
+<svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L3.86621 4L1 7" stroke="#B34353" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.13281 1L7.99902 4L5.13281 7" stroke="#B34353" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

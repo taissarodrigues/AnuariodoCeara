@@ -43,8 +43,8 @@
 .custom-navbar .nav-list li a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
   position: relative;
+   font-weight: var(--font-light);
 }
 
 .custom-navbar .nav-list li a.active::after  {
@@ -97,9 +97,9 @@
     pointer-events: all;
   }
 
-  .nav-list li a {
+  /* .nav-list li a {
     font-size: 24px;
-  }
+  } */
 
   .menu-button.active span {
     opacity: 0;
