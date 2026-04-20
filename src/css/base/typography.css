@@ -2,8 +2,9 @@
    TIPOGRAFIA
 ======================== */
 
+/* TITLES */
 .title-large {
-  font-size: 72px;
+  font-size: 33px;
   font-weight: var(--peso-bold);
 }
 
@@ -12,10 +13,22 @@
   font-weight: var(--peso-bold);
 }
 
+/* TEXT */
+.text-large {
+  font-size: 22px;
+  font-weight: var(--peso-semibold);
+}
+
+.text-medium {
+  font-size: 18px;
+  font-weight: var(--peso-semibold);
+  line-height: 22px;
+}
+
 .text-base {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: var(--peso-regular);
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .text-small {
@@ -33,6 +46,10 @@
 
 .font-medium {
   font-weight: var(--peso-medium);
+}
+
+.font-semibold {
+  font-weight: var(--peso-semibold);
 }
 
 .font-bold {

@@ -1,0 +1,14 @@
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+
+/*  mobile */
+@media (max-width: 750px) {
+  .container {
+    padding: 0 16px;
+  }
+}

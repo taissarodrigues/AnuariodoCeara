@@ -6,13 +6,18 @@
   --cor-gelo: #00000029;
   --cor-grafite: #ACACAC;
 
-   --font-base: "Poppins", sans-serif;
+  --font-base: "Poppins", sans-serif;
 
   --peso-light: 300;
   --peso-regular: 400;
   --peso-medium: 500;
+  --peso-semibold: 600;
   --peso-bold: 700;
+
+  
 }
+
+
 
 /* estilo base */
 body {

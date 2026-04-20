@@ -1,0 +1,152 @@
+/* ========================
+   BREADCRUMB
+======================== */
+
+.maps-breadcrumb {
+  padding: 40px 0 24px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-item a {
+  text-decoration: underline;
+  color: var(--cor-vermelho);
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: var(--cor-cinza);
+  font-weight: 500;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: url('/assets/icons/seta.svg') no-repeat center;
+  background-size: contain;
+  margin: 0 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* ========================
+   PAGE HEADER
+======================== */
+
+.page-header {
+  padding: 0 0 40px;
+}
+
+.page-header h1 {
+  margin: 0;
+}
+
+/* ========================
+   MAPS CONTENT
+======================== */
+
+.maps-content {
+  padding-bottom: 0px;
+}
+
+.maps-inner {
+  max-width: 900px; 
+  margin: 0 auto; 
+  padding: 0 24px;
+}
+
+/* ========================
+   ACCORDION
+======================== */
+
+
+.accordion {
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-color: #d9d9d9;
+  --bs-accordion-btn-bg: transparent;
+  --bs-accordion-active-bg: transparent;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-btn-color: var(--cor-preto);
+  --bs-accordion-active-color: var(--cor-preto);
+
+  border-top: 1px solid #d9d9d9;
+  max-width: none;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  background: transparent;
+}
+
+.accordion-button {
+  padding: 16px 0;
+  font-size: 22px;
+  font-weight: var(--peso-bold);
+  color: var(--cor-preto);
+  background: transparent;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--cor-preto);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  background-image: url('/assets/icons/icon-mais-black.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
+}
+
+.accordion-button:not(.collapsed)::before {
+  background-color: var(--cor-vermelho);
+  background-image: url('/assets/icons/icon-menos-red.svg');
+}
+
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.accordion-body {
+  padding: 0 0 24px 44px;
+  font-size: 16px;
+  color: var(--cor-cinza);
+  line-height: 1.5;
+}
+.collapsing {
+  transition: height 0.6s ease;
+}

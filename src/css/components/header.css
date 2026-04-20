@@ -1,0 +1,77 @@
+/* ========================================
+   HEADER
+======================================== */
+
+/* ---------- TOPBAR ---------- */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: white;
+}
+
+.topbar .logo {
+  height: 50px;
+}
+
+/* ---------- NAVBAR ---------- */
+.custom-navbar {
+  background: var(--cor-vermelho);
+  padding: 16px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* título */
+.custom-navbar h2 {
+  color: white;
+  margin: 0;
+}
+
+/* menu */
+.custom-navbar .nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-navbar .nav-list li a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+
+  font-weight: var(--peso-light); 
+}
+
+/* menu ativo */
+.custom-navbar .nav-list li a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background: white;
+}
+
+/* hover */
+.custom-navbar .nav-list li a:hover {
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+
+  .custom-navbar .nav-list {
+
+    display: none;
+
+  }
+
+}
