@@ -51,7 +51,7 @@
   font-weight: var(--peso-light); 
 }
 
-/* active */
+/* menu ativo */
 .custom-navbar .nav-list li a.active::after {
   content: "";
   position: absolute;

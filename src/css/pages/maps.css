@@ -107,12 +107,10 @@
   gap: 16px;
 }
 
-/* remove seta padrão */
 .accordion-button::after {
   display: none;
 }
 
-/* cria botão + */
 .accordion-button::before {
   content: "";
   width: 25px;
