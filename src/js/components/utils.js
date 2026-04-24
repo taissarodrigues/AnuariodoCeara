@@ -6,8 +6,11 @@ function toggleSidenav() {
     sidenav.classList.toggle("open");
   }
 }
-function buscar() {
-  window.location.href = "busca.html";
+function searchr() {
+  console.log("searchr called");
+  if (!window.location.href.includes("search.html")) {
+    window.location.href = "search.html";
+  }
 }
 function paginaInicial() {
   window.location.href = "index.html";
@@ -25,28 +28,28 @@ function criarHeader() {
             type="button"
             onclick="toggleSidenav()"
             aria-label="Abrir menu">
-            <img src="/assets/icons/menu.png" alt="Abrir menu">
+            <img src="./assets/icons/menu.png" alt="Abrir menu">
           </button>
           <button
             class = "logo-header"
             type = "button"
             onclick = "paginaInicial()"
             aria-label = "Página inicial">
-            <img src="/assets/img/logo-anuario.svg" class="logo" alt="Logo Anuário">
+            <img src="./assets/img/logo-anuario.svg" class="logo" alt="Logo Anuário">
           </button>
 
           <button
             class="search-button"
             type="button"
-            onclick="buscar()"
-            aria-label="Buscar">
-            <img src="/assets/icons/lupa.svg" alt="Buscar">
+            onclick="searchr()"
+            aria-label="searchr">
+            <img src="./assets/icons/lupa.svg" alt="searchr">
           </button>
         </div>
 
         <aside id="mySidebar" class="sidebar" aria-label="Menu lateral">
           <div class="sidebar-header">
-            <img src="/assets/img/logo-anuario.svg" alt="Logo Anuário" class="sidebar-logo">
+            <img src="./assets/img/logo-anuario.svg" alt="Logo Anuário" class="sidebar-logo">
 
             <button
               type="button"
@@ -80,6 +83,7 @@ function criarHeader() {
         </nav>
       </header>
     `;
+    console.log("header created");
   }
 }
 
