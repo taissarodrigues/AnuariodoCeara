@@ -8,7 +8,7 @@
 /* Components  */
 @import './css/components/header.css';
 @import './css/components/sidebar.css';
-@import './css/components/busca.css';
+@import './css/components/search.css';
 
 /* Paginas */
 @import './css/pages/maps.css';
