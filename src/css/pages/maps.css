@@ -95,6 +95,16 @@
   background: transparent;
 }
 
+
+.sidebar-nav {
+  
+
+  font-weight: var(--peso-bold);
+  color: var(--cor-preto);
+  background: transparent;
+
+}
+
 .accordion-button {
   padding: 16px 0;
   font-size: 22px;
