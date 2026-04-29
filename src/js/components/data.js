@@ -1,5 +1,5 @@
 // array para armazenar os dados dos mapas, com título e descrição, para exibir na tela e realizar a busca.
-// queria pegar esses dados do html, vi que precisa dar um get com dom, entao, vou estudar isso depois, por enquanto, deixo os dados aqui, para testar a funcionalidade de busca.
+// queria pegar esses dados do html, vi que precisa dar um get com DOM, entao, vou estudar isso depois, por enquanto, deixo os dados aqui, para testar a funcionalidade de busca.
 const data = {
   "Territórios Administrativos de Fortaleza": {
     title: "Territórios Administrativos de Fortaleza",

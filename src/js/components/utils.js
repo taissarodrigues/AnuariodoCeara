@@ -49,6 +49,7 @@ if (cardsContainer && searchInput) {
 }
 
 // Componenteização do header para reutilizar em outra view.
+// Vi que o innerHTML é uma simples de fazer isso, para projetos pequenos, mas para projetos maiores, é melhor usar React, ja no JS puro, vi que pode ser melhor utilizar o templade ou fetch para pegar o html, mas para esse projeto, vou usar o innerHTML mesmo, para testar a funcionalidade de reutilização do header,  quero ver outras formas de fazer isso.
 function criarHeader() {
   const header = document.querySelector("#header");
   if (!header) return;
